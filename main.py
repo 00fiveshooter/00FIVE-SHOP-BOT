@@ -3,7 +3,7 @@ import sqlite3
 import time
 
 BOT_TOKEN = '8192579751:AAFBXQrn8esKHDerfqzyxUMt76Dtdqm8Vuo'
-ADMIN_ID = 7512577286
+ADMIN_ID = 7489027229
 
 bot = telebot.TeleBot(BOT_TOKEN)
 db = sqlite3.connect('cards.db', check_same_thread=False)
